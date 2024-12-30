@@ -1,5 +1,5 @@
-@font-face { font-family: Niagara_solid; src: url("../Font/FONT - Titre 2 - Niagara solid/NIAGSOL.TTF") format("truetype"); } 
-@font-face { font-family: Capture_it; src: url("../Font/FONT - Titre 1 - Capture it/CAPTURE IT.TTF") format("truetype"); } 
+@font-face { font-family: Niagara_solid; src: url("../fonts/FONT - Titre 2 - Niagara solid/NIAGSOL.TTF") format("truetype"); } 
+@font-face { font-family: Capture_it; src: url("../fonts/FONT - Titre 1 - Capture it/CAPTURE IT.TTF") format("truetype"); } 
 * {
     margin: 0;
 }
@@ -18,8 +18,9 @@ footer  {
 
 header {
     /* border-radius: 0 0 8px 8px; */
-    margin: 0 0 10px 0;
-    box-shadow: 0 6px 25px rgb(0, 0, 0, 0.5)
+    /* margin: 0 0 10px 0; */
+    /* position: fixed; */
+    box-shadow: 0 6px 25px rgb(0, 0, 0, 0.5);
 }
 
 
@@ -39,7 +40,8 @@ footer p {
     font-family: Manrope, sans-serif;
 }
 
-header nav a:hover {
+header nav a:hover,
+.actuel {
     color: #FFCD03;
     /* text-decoration: underline; */
     opacity: 1;
@@ -69,26 +71,35 @@ main h1 {
     color: #FA9900;
     font-family: Capture_it;
     font-size: 5em;
+    margin: 20px 0 20px 0;
 }
 
 main h2 {
     font-family: Niagara_solid;
     font-size: 2em;
     color: black;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: 300;
 }
 
-.section1 {
-    height: 500px;
+main p {
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    height: 600px;
+}
+
+.s1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 0 50px 0;
+    margin: 30px 0 50px 0;
+    height: 550px;
 }
 
-.section1 p {
-    font-family: Arial, sans-serif;
+.s1 h1 {
+    margin: 0 0 20px 0;
 }
 
 .texte_page_accueil {
@@ -115,8 +126,18 @@ main h2 {
     box-shadow: 0 6px 25px rgb(0, 0, 0, 0.5);
 }
 
-.section2 {
-    height: 500px;
+.s2 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background: #FA9900;
+}
+
+.s2 h1 {
+    color: #FFD21A;
+}
+
+.s3 {
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -127,6 +148,7 @@ main h2 {
     height: 100%;
     background-image: url(../Images/Photos/photo_20.webp);
     background-size: cover;
-    background-position: center;
+    background-position: 0% 60%;
+    /* background-position: center; */
     background-attachment: fixed;
 }
