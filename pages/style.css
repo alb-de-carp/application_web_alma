@@ -1,0 +1,132 @@
+@font-face { font-family: Niagara_solid; src: url("../Font/FONT - Titre 2 - Niagara solid/NIAGSOL.TTF") format("truetype"); } 
+@font-face { font-family: Capture_it; src: url("../Font/FONT - Titre 1 - Capture it/CAPTURE IT.TTF") format("truetype"); } 
+* {
+    margin: 0;
+}
+
+header,
+footer  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 80px;
+    margin: 0;
+    background : #BD0120;
+    /* background: linear-gradient(#BD0120 90%, #FAC800 10%); */
+}
+
+header {
+    /* border-radius: 0 0 8px 8px; */
+    margin: 0 0 10px 0;
+    box-shadow: 0 6px 25px rgb(0, 0, 0, 0.5)
+}
+
+
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+header nav a,
+footer p {
+    color: #FA9900;
+    font-size: 1.1em;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    /* font-family: Oxygen; */
+    font-family: Manrope, sans-serif;
+}
+
+header nav a:hover {
+    color: #FFCD03;
+    /* text-decoration: underline; */
+    opacity: 1;
+    border-bottom: 2px solid #FFCD03;
+    background-color: rgb(198, 1, 32, 0.8);
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+/* .sous {
+    display: none;
+} */
+
+/* nav ul li:hover .sous {
+    display: initial;
+} */
+
+header .logo2 {
+    height: 80px;
+    width: 200px;
+}
+
+main h1 {
+    color: #FA9900;
+    font-family: Capture_it;
+    font-size: 5em;
+}
+
+main h2 {
+    font-family: Niagara_solid;
+    font-size: 2em;
+    color: black;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+.section1 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+
+.section1 p {
+    font-family: Arial, sans-serif;
+}
+
+.texte_page_accueil {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 20% 0 20%;
+    grid-gap: 50px;
+    height: 100%;
+}
+
+.texte_page_accueil p {
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+}
+
+.texte_page_accueil img {
+    width: 100%;
+    height: 80%;
+    border-radius: 8px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #FA9900;
+    box-shadow: 0 6px 25px rgb(0, 0, 0, 0.5);
+}
+
+.section2 {
+    height: 500px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo_page_accueil {
+    width: 100%;
+    height: 100%;
+    background-image: url(../Images/Photos/photo_20.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
