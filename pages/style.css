@@ -1,5 +1,7 @@
 @font-face { font-family: Niagara_solid; src: url("../fonts/FONT - Titre 2 - Niagara solid/NIAGSOL.TTF") format("truetype"); } 
-@font-face { font-family: Capture_it; src: url("../fonts/FONT - Titre 1 - Capture it/CAPTURE IT.TTF") format("truetype"); } 
+@font-face { font-family: Capture_it; src: url("../fonts/FONT - Titre 1 - Capture it/CAPTURE IT.TTF") format("truetype"); }
+@font-face { font-family: Inconsolata; src: url("../fonts/FONT\ -\ Corps\ -\ Inconsolata/INCONSOLATA-VARIABLEFONT_WDTH,WGHT.TTF") format("truetype"); }
+
 * {
     margin: 0;
 }
@@ -70,7 +72,7 @@ header nav ul {
     display: initial;
 } */
 
-header .logo2 {
+header .logo2_alma {
     height: 80px;
     width: 200px;
 }
@@ -91,7 +93,7 @@ main h2 {
 }
 
 main p {
-    font-family: Arial, sans-serif;
+    font-family: Inconsolata, sans-serif;
 }
 
 .section {
@@ -144,18 +146,41 @@ main p {
     width: auto;
 }
 
-.s4 .logo_partenaires{
+/* .s2 p {
+    border: brown 2px solid;
+} */
+
+.s4 .conteneur_logos_partenaires{
     width: 80%;
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 0 10% 0 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10vh 0 0 0; /* vh = percentage based on the height of the parent, else it's based on the width */
     grid-gap: 30px;
+    justify-items: center;
 }
 
-.s4 .logo_partenaires div {
+.logo_partenaire {
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.logo1_partenaire {
+    background-image: url('../images/logos/Logo_4Ltrophy.png');
+}
+
+.logo2_partenaire {
+    background-image: url('../images/logos/Logo-TotalEnergies.jpg');
+    background-position: 50% 0;
+}
+
+.logo3_partenaire {
+    background-image: url('../images/logos/AXA_Logo.png');
+    background-position: 10px -20px;
 }
 
 .section_paire {
@@ -168,35 +193,37 @@ main p {
 
 .section_paire .cta {
     color: black;
-    background: linear-gradient(#FFD21A, #C19B00);
-    border-radius: 50px;
-    padding: 10px 30px;
-    text-decoration: none;
-    font-family: Manrope, sans-serif;
+    /* background: linear-gradient(#FFD21A, #C19B00); */
+    background: #FFD21A;
 }
 
-.section_paire .cta:hover {
+/* .section_paire .cta:hover {
     background: linear-gradient(#FF611A, #C13C00);
-}
+} */
 
 .cta {
     /* Call-to-action */
-    background: linear-gradient(#FFA61A, #B97100);
+    /* background: linear-gradient(#FFA61A, #B97100); */
+    background: #FFA61A;
     color: white;
-    border-radius: 50px;
-    padding: 10px 30px;
+    /* border-radius: 10px; */
+    padding: 5px 0;
     text-decoration: none;
-    font-family: Manrope, sans-serif;
+    font-family: Inconsolata, sans-serif;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
 .cta:hover {
-    background: linear-gradient(#FF611A, #C13C00);
+    /* background: linear-gradient(#FF611A, #C13C00); */
+    box-shadow: 0 0 6px rgb(0, 0, 0, 0.25);
   }
 
 .photo_page_accueil {
     width: 96%;
     height: 100%;
-    background-image: url(../Images/Photos/photo_20.webp);
+    background-image: url(../Images/photos/photo_20.webp);
     background-size: cover;
     background-position: 0% 60%;
     /* background-position: center; */
