@@ -128,7 +128,7 @@ main p {
     background-color: white;
 }
 
-.s1 {
+.main_accueil .s1 {
     /* justify-content: center; */
     padding: 30px 0 50px 0;
     height: 550px;
@@ -137,11 +137,11 @@ main p {
     background-position: 0% 60%; */
 }
 
-.s1 h1 {
+.main_accueil .s1 h1 {
     margin: 0 0 20px 0;
 }
 
-.s1 img {
+.main_accueil .s1 img {
     height: 70%;
     width: auto;
 }
@@ -150,7 +150,7 @@ main p {
     border: brown 2px solid;
 } */
 
-.s4 .conteneur_logos_partenaires{
+.main_accueil .s4 .conteneur_logos_partenaires{
     width: 80%;
     height: 100%;
     display: grid;
@@ -229,4 +229,88 @@ main p {
     /* background-position: center; */
     /* background-attachment: fixed; */
     border-radius: 20px;
+}
+
+.main_qsn .section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px 5% 0 5%;
+    align-items: center;
+    grid-gap: 5%;
+    /* border: brown 2px solid; */
+}
+.main_qsn h2 {
+    font-size: 3em;
+    justify-self: center;
+    align-self: end;
+    /* border: brown 2px solid; */
+    text-align: center;
+}
+
+.main_qsn p {
+    justify-self: center;
+    align-self: start;
+    justify-content: center;
+    /* border: brown 2px solid; */
+}
+
+.main_qsn img {
+    justify-self: stretch;
+    align-self: center;
+    height: 70%;
+    width: auto;
+    /* border: brown 2px solid; */
+}
+
+.main_qsn .s1 img {
+    grid-column: 2 / 3;
+    grid-row: 1 / span 2;
+}
+
+.main_qsn .s2 img {
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2;
+}
+
+.main_le_projet img {
+    /* justify-self: stretch;
+    align-self: center;
+    height: 70%;
+    width: auto; */
+    width: 90%;
+    height: auto;
+    box-shadow: 60px 60px 0px -30px #FA9900;
+}
+
+.main_le_projet .s1 {
+    height: 1000px;
+}
+
+.texte_4l_trophy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px 5% 0 5%;
+    align-items: center;
+    grid-gap: 5%;
+}
+
+/* hr {
+    width: 50%;
+    height: 3px;
+    background-color: #FA9900;
+} */
+
+.main_nous_contacter .s1 {
+    padding: 0 5% 0 5%;
+}
+
+.main_nous_contacter ul {
+    margin: 50px 0 0 0;
+}
+
+.main_nous_contacter li {
+    font-family: Inconsolata, sans-serif;
+    list-style: none;
 }
