@@ -64,6 +64,21 @@ header nav ul {
     list-style-type: none;
 }
 
+.logo_contact {
+    /* border: yellow 2px solid; */
+    height: 100%;
+}
+
+.logo_contact img {
+    box-sizing: border-box;
+    height: 100%;
+    /* border: yellow 2px solid; */
+}
+
+.logo_mail {
+    padding: 21px;
+}
+
 /* .sous {
     display: none;
 } */
