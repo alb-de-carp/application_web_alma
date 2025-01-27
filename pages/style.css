@@ -8,14 +8,18 @@
 *,*:before,*:after { margin: 0; padding: 0; box-sizing: border-box; }
 
 header,
-footer  {
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px 15px 50px;
-    height: 15vh;
     margin: 0;
-    background : #BD0120
+    background : #BD0120;
+    height: 20vh;
+}
+
+footer {
+    height: 15vh;
 }
 
 header {
@@ -23,13 +27,14 @@ header {
     position: fixed;
     width: 100%;
     z-index: 2;
-    transition: 0.4s;
+    transition: all .3s ease;
 }
 
 .header-scroll {
-    height: 50hv;
-  }
-
+    height: 50px;
+    /* background-color: transparent; */
+    box-shadow: 0 0 0;
+}
 
 header img {
     width: 80px;
@@ -37,13 +42,19 @@ header img {
     border-radius: 8px;
 }
 
-header nav a,
+.lien_menu,
 footer p {
     color: #FA9900;
     font-size: 1.1em;
     text-decoration: none;
     padding: 10px 20px 10px 20px;
     font-family: Manrope, sans-serif;
+}
+
+.lien-menu-scroll {
+    background-color: black;
+    color: black;
+    font-size: 1em;
 }
 
 header nav a:hover,
@@ -59,6 +70,15 @@ header nav ul {
     list-style-type: none;
 }
 
+header .logo2_alma {
+    height: 80px;
+    width: 200px;
+}
+
+.logo-alma-scroll {
+    display: None;
+}
+
 .logo_contact {
     height: 100%;
 }
@@ -70,11 +90,6 @@ header nav ul {
 
 .logo_mail {
     padding: 21px;
-}
-
-header .logo2_alma {
-    height: 80px;
-    width: 200px;
 }
 
 main h1 {
@@ -136,6 +151,8 @@ main p {
 
 .main_accueil .s1 h1 {
     margin: 0;
+    font-size: 7em;
+    color: #FFD21A;
 }
 
 .main_accueil .s1 p {
@@ -212,7 +229,7 @@ main p {
 
 .titres_page_accueil {
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     margin: 0px 0 20px 0;
     position: relative;
 }
