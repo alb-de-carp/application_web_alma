@@ -5,6 +5,7 @@
 * {
     margin: 0;
 }
+*,*:before,*:after { margin: 0; padding: 0; box-sizing: border-box; }
 
 header,
 footer  {
@@ -12,14 +13,22 @@ footer  {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px 15px 50px;
-    height: 10vh;
+    height: 15vh;
     margin: 0;
     background : #BD0120
 }
 
 header {
     box-shadow: 0 6px 25px rgb(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    transition: 0.4s;
 }
+
+.header-scroll {
+    height: 50hv;
+  }
 
 
 header img {
@@ -121,14 +130,18 @@ main p {
 }
 
 .main_accueil .s1 {
-    padding: 0px 0 30px 0;
-    height: 130vh;
+    padding: 0px 0 10px 0;
+    height: 140vh;
+}
+
+.main_accueil .s1 h1 {
+    margin: 0;
 }
 
 .main_accueil .s1 p {
     width: 60%;
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 50px 0 50px 0;
     font-size: 1.1em;
 }
 
@@ -181,7 +194,6 @@ main p {
     background: #FFD21A;
 }
 
-
 .cta {
     /* Call-to-action */
     background: #FFA61A;
@@ -199,34 +211,16 @@ main p {
   }
 
 .titres_page_accueil {
-    /* width: 96%; */
-    /* height: 100%; */
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     margin: 0px 0 20px 0;
     position: relative;
-    /* background-image: url(../Images/photos/photo_20.webp); */
-    /* background-size: 0 0; */
-    /* background-position: 0% 60%; */
-    /* border-radius: 20px; */
-    /* box-shadow: 0 0 10px rgb(0, 0, 0, 0.5); */
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-
-    /* opacity: 1; */
-    /* backdrop-filter: blur(10px); */
-    /*filter: brightness(80%); */
-
-    /* background-position: center; */
-    /* background-attachment: fixed; */
 }
 
 .titres_page_accueil img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* border: 2px black solid; */
 }
 
 .titres_page_accueil h1,
@@ -240,21 +234,8 @@ main p {
     align-items: center;
     justify-content: center;
     font-size: 5em;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
 }
-
-/* .photo_page_accueil::before { */
-    /*content: "";  Important */
-    /*z-index: -1;  Important */
-    /* position: inherit;
-    left: inherit;
-    top: inherit;
-    width: inherit;
-    height: inherit;
-    background-image: inherit;
-    background-size: cover;
-    filter: blur(3px); */
-/* } */
 
 .main_qsn .section {
     display: grid;
@@ -262,14 +243,11 @@ main p {
     align-items: center;
     padding: 100px 10% 0 10%;
     height: 400px;
-    /* grid-gap: 5%; */
-    /* border: brown 2px solid; */
 }
 
 .main_qsn h2 {
     font-size: 3em;
     text-align: center;
-    /* border: brown 2px solid; */
 }
 
 .main_qsn p {
@@ -277,7 +255,6 @@ main p {
     box-shadow: 0 6px 25px rgb(0, 0, 0, 0.5);
     padding: 20px;
     background-color: white;
-    /* border: brown 2px solid; */
 }
 
 .main_qsn img {
