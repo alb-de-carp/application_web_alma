@@ -42,7 +42,7 @@ header img {
     border-radius: 8px;
 }
 
-.lien_menu,
+header nav a,
 footer p {
     color: #FA9900;
     font-size: 1.1em;
@@ -259,7 +259,7 @@ main p {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 100px 10% 0 10%;
-    height: 400px;
+    height: 500px;
 }
 
 .main_qsn h2 {
@@ -292,11 +292,11 @@ main p {
     max-width: 100%; */
 }
 
-.main_qsn .s1 img {
+.main_qsn .s2 img {
     margin-left: auto;
 }
 
-.main_qsn .s2 img {
+.main_qsn .s3 img {
     margin-right: auto;
 }
 
