@@ -1,4 +1,4 @@
-@font-face { font-family: Niagara_solid; src: url("../fonts/FONT - Titre 2 - Niagara solid/NIAGSOL.TTF") format("truetype"); } 
+@font-face { font-family: Niagara_solid; src: url("../fonts/FONT - Titre 2 - Niagara solid/NIAGSOL.TTF") format("truetype"); }
 @font-face { font-family: Capture_it; src: url("../fonts/FONT - Titre 1 - Capture it/CAPTURE IT.TTF") format("truetype"); }
 @font-face { font-family: Inconsolata; src: url("../fonts/FONT\ -\ Corps\ -\ Inconsolata/INCONSOLATA-VARIABLEFONT_WDTH,WGHT.TTF") format("truetype"); }
 
@@ -6,31 +6,18 @@
     margin: 0;
 }
 
-/* a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline
-} */
-
 header,
 footer  {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px 15px 50px;
-    height: 80px;
+    height: 10vh;
     margin: 0;
-    /* background : #B93A00; */
     background : #BD0120
-    /* background: linear-gradient(#BD0120 90%, #FAC800 10%); */
 }
 
 header {
-    /* border-radius: 0 0 8px 8px; */
-    /* margin: 0 0 10px 0; */
-    /* position: fixed; */
     box-shadow: 0 6px 25px rgb(0, 0, 0, 0.5);
 }
 
@@ -47,14 +34,12 @@ footer p {
     font-size: 1.1em;
     text-decoration: none;
     padding: 10px 20px 10px 20px;
-    /* font-family: Oxygen; */
     font-family: Manrope, sans-serif;
 }
 
 header nav a:hover,
 .actuel {
     color: #FFCD03;
-    /* text-decoration: underline; */
     opacity: 1;
     border-bottom: 2px solid #FFCD03;
     background-color: rgb(198, 1, 32, 0.8);
@@ -66,27 +51,17 @@ header nav ul {
 }
 
 .logo_contact {
-    /* border: yellow 2px solid; */
     height: 100%;
 }
 
 .logo_contact img {
     box-sizing: border-box;
     height: 100%;
-    /* border: yellow 2px solid; */
 }
 
 .logo_mail {
     padding: 21px;
 }
-
-/* .sous {
-    display: none;
-} */
-
-/* nav ul li:hover .sous {
-    display: initial;
-} */
 
 header .logo2_alma {
     height: 80px;
@@ -115,7 +90,7 @@ main p {
 
 .section {
     height: 600px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -146,33 +121,16 @@ main p {
 }
 
 .main_accueil .s1 {
-    /* justify-content: center; */
-    padding: 30px 0 30px 0;
-    height: 650px;
-    /* background-image: url("../images/photos/photo_5.webp");
-    background-size: cover;
-    background-position: 0% 60%; */
-}
-
-.main_accueil .s1 h1 {
-    margin: 0 0 20px 0;
+    padding: 0px 0 30px 0;
+    height: 130vh;
 }
 
 .main_accueil .s1 p {
     width: 60%;
     text-align: center;
-    margin: 0 0 20px 0;
-    font-size: 1.2em;
+    margin: 20px 0 20px 0;
+    font-size: 1.1em;
 }
-
-.main_accueil .s1 img {
-    height: 70%;
-    width: auto;
-}
-
-/* .s2 p {
-    border: brown 2px solid;
-} */
 
 .main_accueil .s4 {
     height: 500px;
@@ -190,7 +148,6 @@ main p {
 
 .logo_partenaire {
     text-align: center;
-    /* margin: auto; */
     background-size: cover;
     width: 130px;
     height: 130px;
@@ -221,20 +178,14 @@ main p {
 
 .section_paire .cta {
     color: black;
-    /* background: linear-gradient(#FFD21A, #C19B00); */
     background: #FFD21A;
 }
 
-/* .section_paire .cta:hover {
-    background: linear-gradient(#FF611A, #C13C00);
-} */
 
 .cta {
     /* Call-to-action */
-    /* background: linear-gradient(#FFA61A, #B97100); */
     background: #FFA61A;
     color: white;
-    /* border-radius: 10px; */
     padding: 5px 0;
     text-decoration: none;
     font-family: Inconsolata, sans-serif;
@@ -244,20 +195,66 @@ main p {
 }
 
 .cta:hover {
-    /* background: linear-gradient(#FF611A, #C13C00); */
     box-shadow: 0 0 6px rgb(0, 0, 0, 0.25);
   }
 
-.photo_page_accueil {
-    width: 96%;
-    height: 100%;
-    background-image: url(../Images/photos/photo_20.webp);
-    background-size: cover;
-    background-position: 0% 60%;
+.titres_page_accueil {
+    /* width: 96%; */
+    /* height: 100%; */
+    width: 100%;
+    height: 90vh;
+    margin: 0px 0 20px 0;
+    position: relative;
+    /* background-image: url(../Images/photos/photo_20.webp); */
+    /* background-size: 0 0; */
+    /* background-position: 0% 60%; */
+    /* border-radius: 20px; */
+    /* box-shadow: 0 0 10px rgb(0, 0, 0, 0.5); */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+    /* opacity: 1; */
+    /* backdrop-filter: blur(10px); */
+    /*filter: brightness(80%); */
+
     /* background-position: center; */
     /* background-attachment: fixed; */
-    border-radius: 20px;
 }
+
+.titres_page_accueil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border: 2px black solid; */
+}
+
+.titres_page_accueil h1,
+.titres_page_accueil h2 {
+    height: inherit;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* .photo_page_accueil::before { */
+    /*content: "";  Important */
+    /*z-index: -1;  Important */
+    /* position: inherit;
+    left: inherit;
+    top: inherit;
+    width: inherit;
+    height: inherit;
+    background-image: inherit;
+    background-size: cover;
+    filter: blur(3px); */
+/* } */
 
 .main_qsn .section {
     display: grid;
@@ -268,6 +265,7 @@ main p {
     /* grid-gap: 5%; */
     /* border: brown 2px solid; */
 }
+
 .main_qsn h2 {
     font-size: 3em;
     text-align: center;
@@ -276,6 +274,9 @@ main p {
 
 .main_qsn p {
     text-align: justify;
+    box-shadow: 0 6px 25px rgb(0, 0, 0, 0.5);
+    padding: 20px;
+    background-color: white;
     /* border: brown 2px solid; */
 }
 
@@ -320,7 +321,7 @@ main p {
 .main_le_projet img {
     width: 70%;
     height: auto;
-    box-shadow: 60px 60px 0px -30px #FA9900;
+    box-shadow: 60px 60px 60px -30px #FA9900;
     margin: auto;
     /* justify-self: stretch;
     align-self: center;
@@ -329,8 +330,9 @@ main p {
 }
 
 .main_le_projet p {
-    box-shadow: -30px -30px 0px -20px #FA4E00;
-    padding: 10px;
+    /* box-shadow: 30px 30px 0px -20px #C13C00; */
+    box-shadow: 0px 0px 25px rgb(193, 60, 0, 0.5);
+    padding: 20px;
 }
 
 .texte_4l_trophy {
