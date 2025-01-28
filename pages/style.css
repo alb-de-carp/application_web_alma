@@ -113,7 +113,7 @@ main p {
 }
 
 .section {
-    height: 600px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,7 +146,7 @@ main p {
 
 .main_accueil .s1 {
     padding: 0px 0 10px 0;
-    height: 140vh;
+    height: 100vh;
 }
 
 .main_accueil .s1 h1 {
@@ -155,7 +155,14 @@ main p {
     color: #FFD21A;
 }
 
-.main_accueil .s1 p {
+.main_accueil .s11 {
+    padding: 0px 0 10px 0;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main_accueil .s11 p {
     width: 60%;
     text-align: center;
     margin: 50px 0 50px 0;
@@ -163,7 +170,7 @@ main p {
 }
 
 .main_accueil .s4 {
-    height: 500px;
+    height: 90vh;
 }
 
 .main_accueil .s4 .conteneur_logos_partenaires{
