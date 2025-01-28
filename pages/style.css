@@ -155,6 +155,32 @@ main p {
     color: #FFD21A;
 }
 
+.titres_page_accueil {
+    width: 100%;
+    height: 100vh;
+    margin: 0px 0 20px 0;
+    position: relative;
+}
+
+.titres_page_accueil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titres_page_accueil h1 {
+    height: inherit;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 .main_accueil .s11 {
     padding: 0px 0 10px 0;
     height: 80vh;
@@ -234,38 +260,11 @@ main p {
     box-shadow: 0 0 6px rgb(0, 0, 0, 0.25);
   }
 
-.titres_page_accueil {
-    width: 100%;
-    height: 100vh;
-    margin: 0px 0 20px 0;
-    position: relative;
-}
-
-.titres_page_accueil img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.titres_page_accueil h1,
-.titres_page_accueil h2 {
-    height: inherit;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5em;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
 .main_qsn .section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
-    padding: 100px 10% 0 10%;
+    align-content: center;
+    padding: 0 10% 0 10%;
     height: 500px;
 }
 
@@ -283,20 +282,39 @@ main p {
 
 .main_qsn img {
     justify-self: stretch;
-    align-self: start;
+    align-self: center;
     height: auto;
-    width: 70%;
+    max-width: 70%;
     border-radius: 8px;
     padding: 10px;
     border: 2px solid white;
     box-shadow: 0 6px 25px rgb(0, 0, 0, 0.5);
     background-color: white;
-        /* margin: auto; */
-    /* align-self: center; */
-    /* height: 70%;
-    width: auto; */
-    /* max-height: 80%;
-    max-width: 100%; */
+}
+
+.main_qsn .s1 {
+    background: url(../images/photos/alma_4L/27122024-p1013698_54290727884_o.jpg);
+    background-size: cover;
+    background-position: 0 -200px;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.main_qsn .s1 h1 {
+    height: inherit;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
 }
 
 .main_qsn .s2 img {
@@ -304,15 +322,25 @@ main p {
 }
 
 .main_qsn .s3 img {
-    margin-right: auto;
+    /* margin-right: auto; */
+    max-height: 50%;
+    width: auto;
+    justify-self: center;
 }
 
 .texte_qsn {
-    align-self: start;
+    align-self: center;
+    width: 80%;
 }
 
 .main_qsn .s2 {
     background: linear-gradient(90deg, #B93A00, #FFD21A);
+}
+
+.main_qsn .s3 {
+    margin: 0;
+    align-self: center;
+    padding: 0;
 }
 
 .main_le_projet section {
@@ -324,14 +352,9 @@ main p {
     height: auto;
     box-shadow: 60px 60px 60px -30px #FA9900;
     margin: auto;
-    /* justify-self: stretch;
-    align-self: center;
-    height: 70%;
-    width: auto; */
 }
 
 .main_le_projet p {
-    /* box-shadow: 30px 30px 0px -20px #C13C00; */
     box-shadow: 0px 0px 25px rgb(193, 60, 0, 0.5);
     padding: 20px;
 }
@@ -342,8 +365,6 @@ main p {
     padding: 0px 10% 0 10%;
     margin-top: 50px;
     align-items: center;
-    /* grid-template-rows: 1fr 1fr; */
-    /* grid-gap: 5%; */
 }
 
 .main_le_projet .s1,
