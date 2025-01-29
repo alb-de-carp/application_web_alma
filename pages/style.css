@@ -95,14 +95,14 @@ header .logo2_alma {
 main h1 {
     color: #FA9900;
     font-family: Capture_it;
-    font-size: 5em;
+    font-size: 4em;
     margin: 20px 0 20px 0;
     font-weight: 100;
 }
 
 main h2 {
     font-family: Niagara_solid;
-    font-size: 2em;
+    font-size: 3em;
     color: black;
     margin-bottom: 30px;
     font-weight: 300;
@@ -358,35 +358,8 @@ main p {
 
 .main_le_projet section {
     height: 450px;
+    padding-bottom: 30px;
     /* border: 2px black solid; */
-}
-
-.main_le_projet .s2 img,
-.main_le_projet .s3 img {
-    width: 70%;
-    height: auto;
-    box-shadow: 60px 60px 60px -30px #FA9900;
-    margin: auto;
-}
-
-.main_le_projet .s4 img,
-.main_le_projet .s5 img {
-    width: 70%;
-    height: auto;
-    box-shadow: 60px 60px 60px -30px #C13C00;
-    margin: auto;
-}
-
-.main_le_projet .s2 p,
-.main_le_projet .s3 p {
-    box-shadow: 0px 0px 25px rgba(193, 60, 0, 0.5);
-    padding: 20px;
-}
-
-.main_le_projet .s4 p,
-.main_le_projet .s5 p {
-    box-shadow: 0px 0px 25px rgba(193, 60, 0, 0.5);
-    padding: 20px;
 }
 
 .main_le_projet .s1 {
@@ -419,29 +392,70 @@ main p {
     height: 500px;
 }
 
-.main_le_projet .s3,
-.main_le_projet .s5 {
-    padding: 0 0 0 30px;
-}
-
 .texte_4l_trophy {
-    /* Dans les sections 2 et 3 */
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0px 10% 0 10%;
-    margin-top: 50px;
-    align-items: center;
+    grid-template-columns: 70% 30%;
+    padding: 0px 15% 0 15%;
+    align-content: center;
+    /* border: 2px black solid; */
 }
 
-/* .main_le_projet .s2 p,
+.s2 .texte_4l_trophy,
+.s4 .texte_4l_trophy {
+    /* Dans les sections 2 et 3 */
+    height: 80%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* border: 2px black solid; */
+    /* align-items: center; */
+}
+
+.s3 .texte_4l_trophy,
+.s5 .texte_4l_trophy {
+    /* Dans les sections 2 et 3 */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* border: 2px black solid; */
+    /* align-items: center; */
+}
+
+.main_le_projet .s2 img,
+.main_le_projet .s3 img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    /* box-shadow: 0 0 10px 0px rgba(250,153, 0, 0.7); */
+    /* margin: auto; */
+    /* border-radius: 10px; */
+}
+
+.main_le_projet .s4 img,
+.main_le_projet .s5 img {
+    width: 100%;
+    height: auto;
+    /* box-shadow: 60px 60px 60px -30px #C13C00;
+    margin: auto; */
+}
+
+.main_le_projet .s2 p,
 .main_le_projet .s3 p {
-    background: #FA9900;
-} */
+    /* box-shadow: 0px 0px 25px rgba(193, 60, 0, 0.5); */
+    padding: 20px;
+    background: #FFD21A;
+}
+
+.main_le_projet .s4 p,
+.main_le_projet .s5 p {
+    /* box-shadow: 0px 0px 25px rgba(193, 60, 0, 0.5); */
+    padding: 20px;
+    background: #FFD21A;
+}
 
 .main_le_projet .s4 {
-    padding: 30px 0 0 0;
+    /* padding: 30px 0 0 0; */
     background: #FA9900;
-    height: 500px;
+    /* height: 500px; */
 }
 
 .main_le_projet .s4 h1 {
@@ -452,24 +466,91 @@ main p {
     background: #FA9900;
 }
 
-.main_le_projet .s4 p,
-.main_le_projet .s5 p {
-    background: #FFD21A;
+.main_partenaires section {
+    height: 450px;
+    padding-bottom: 30px;
 }
 
-.main_sponso .s1 {
-    padding: 30px 0 0 0;
+.main_partenaires .s1 {
+    background: url(../images/photos/VML\ et\ ELA/p1014255_54290731268_o.jpg);
+    background-size: cover;
+    background-position: 0 -180px;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.main_partenaires .s1 h1 {
+    height: inherit;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+}
+
+.main_partenaires .s2 {
+    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .main_contact {
-    padding: 0 20% 0 20%;
+    /* padding: 0 20% 0 20%; */
     background: linear-gradient(90deg, #B93A00, #FFD21A);;
 }
 
-.main_contact .s1 {
-    padding: 70px 0 0 0;
-    height: 500px;
+.main_contact section {
+    margin: 0 20% 0 20%;
     background-color: white;
+    padding: 30px;
+    height: 300px;
+}
+
+.main_contact h2 {
+    font-size: 3em;
+}
+
+.main_contact a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.main_contact .s1 {
+    background: url(../images/photos/alma_4L/27122024-p1013362_54290488236_o.jpg);
+    background-size: cover;
+    background-position: 0 -450px;
+    height: 80vh;
+    padding: 0;
+    margin: 0 0 50px 0;
+    position: relative;
+}
+
+.main_contact .s1 h1 {
+    height: inherit;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+}
+
+.main_contact .s4 {
+    padding-top: 70px;
+    height: 500px;
 }
 
 .main_contact ul {

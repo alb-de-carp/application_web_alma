@@ -3,7 +3,7 @@ window.onscroll = function() {
     var logo1 = document.getElementsByClassName('logo1_alma')
     var logo2 = document.getElementsByClassName('logo2_alma')
     var menu = document.getElementsByClassName('lien_menu')
-     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
          header[0].classList.add('header-scroll');
          logo1[0].classList.add('logo-alma-scroll');
          logo2[0].classList.add('logo-alma-scroll');
