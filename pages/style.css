@@ -33,6 +33,7 @@ header {
 .header-scroll {
     height: 50px;
     /* background-color: transparent; */
+    background-color: rgb(0, 0, 0, 0.5);
     box-shadow: 0 0 0;
 }
 
@@ -45,10 +46,14 @@ header img {
 header nav a,
 footer p {
     color: #FA9900;
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-decoration: none;
     padding: 10px 20px 10px 20px;
-    font-family: Manrope, sans-serif;
+    /* font-family: Manrope, sans-serif; */
+    font-family: Inconsolata, sans-serif;
+    font-weight: 500;
+    /* border-left: 1px #FFCD03 solid;
+    border-right: 1px #FFCD03 solid; */
 }
 
 .lien-menu-scroll {
@@ -551,6 +556,11 @@ main p {
 .main_contact .s4 {
     padding-top: 70px;
     height: 500px;
+}
+
+.main_contact .s5 {
+    height: 30px;
+    background-color: transparent;
 }
 
 .main_contact ul {
