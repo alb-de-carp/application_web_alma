@@ -237,16 +237,16 @@ main p {
 }
 
 .logo1_partenaire {
-    background-image: url('../images/logos/Logo_4Ltrophy.png');
+    background-image: url('images/logos/Logo_4Ltrophy.png');
 }
 
 .logo2_partenaire {
-    background-image: url('../images/logos/Logo-TotalEnergies.jpg');
+    background-image: url('images/logos/Logo-TotalEnergies.jpg');
     background-position: 50% 0;
 }
 
 .logo3_partenaire {
-    background-image: url('../images/logos/AXA_Logo.png');
+    background-image: url('images/logos/AXA_Logo.png');
     background-position: 10px -20px;
 }
 
@@ -312,7 +312,7 @@ main p {
 }
 
 .main_qsn .s1 {
-    background: url(../images/photos/alma_4L/27122024-p1013698_54290727884_o.jpg);
+    background: url(images/photos/alma_4L/27122024-p1013698_54290727884_o.jpg);
     background-size: cover;
     background-position: 0 -200px;
     height: 80vh;
@@ -386,7 +386,7 @@ main p {
 }
 
 .main_le_projet .s1 {
-    background: url("../images/photos/photo_5.webp");
+    background: url("images/photos/photo_5.webp");
     background-size: cover;
     background-position: 0 -350px;
     height: 80vh;
@@ -517,7 +517,7 @@ main p {
 }
 
 .main_partenaires .s1 {
-    background: url(../images/photos/VML\ et\ ELA/p1014255_54290731268_o_1.jpg);
+    background: url(images/photos/VML\ et\ ELA/p1014255_54290731268_o_1.jpg);
     background-size: cover;
     background-position: 0 -130px;
     height: 80vh;
@@ -569,7 +569,7 @@ main p {
 }
 
 .main_contact .s1 {
-    background: url(../images/photos/alma_4L/27122024-p1013362_54290488236_o.jpg);
+    background: url(images/photos/alma_4L/27122024-p1013362_54290488236_o.jpg);
     background-size: cover;
     background-position: 0 -450px;
     height: 80vh;
