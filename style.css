@@ -1,6 +1,6 @@
-@font-face { font-family: Niagara_solid; src: url("../fonts/FONT - Titre 2 - Niagara solid/NIAGSOL.TTF") format("truetype"); }
-@font-face { font-family: Capture_it; src: url("../fonts/FONT - Titre 1 - Capture it/CAPTURE IT.TTF") format("truetype"); }
-@font-face { font-family: Inconsolata; src: url("../fonts/FONT\ -\ Corps\ -\ Inconsolata/INCONSOLATA-VARIABLEFONT_WDTH,WGHT.TTF") format("truetype"); }
+@font-face { font-family: Niagara_solid; src: url("fonts/FONT - Titre 2 - Niagara solid/NIAGSOL.TTF") format("truetype"); }
+@font-face { font-family: Capture_it; src: url("fonts/FONT - Titre 1 - Capture it/CAPTURE IT.TTF") format("truetype"); }
+@font-face { font-family: Inconsolata; src: url("fonts/FONT\ -\ Corps\ -\ Inconsolata/INCONSOLATA-VARIABLEFONT_WDTH,WGHT.TTF") format("truetype"); }
 
 * {
     margin: 0;
