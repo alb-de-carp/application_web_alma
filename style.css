@@ -234,17 +234,20 @@ main p {
 }
 
 .logo1_partenaire {
-    background-image: url('images/logos/Logo_4Ltrophy.png');
+    background-image: url('images/logos/logo_ela.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: 0 20%;
+    /* padding: auto; */
 }
 
 .logo2_partenaire {
-    background-image: url('images/logos/Logo-TotalEnergies.jpg');
-    background-position: 50% 0;
+    background-image: url('images/logos/Logo_4Ltrophy.png');
 }
 
 .logo3_partenaire {
-    background-image: url('images/logos/AXA_Logo.png');
-    background-position: 10px -20px;
+    background-image: url('images/logos/logo_vml.png');
 }
 
 .main_accueil .section_impaire {
