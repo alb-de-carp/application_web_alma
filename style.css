@@ -92,10 +92,7 @@ header .logo2_alma {
 .logo_contact img {
     box-sizing: border-box;
     height: 100%;
-}
-
-.logo_mail {
-    padding: 21px;
+    padding: 20px;
 }
 
 main h1 {
@@ -512,8 +509,8 @@ main p {
 }
 
 .main_partenaires section {
-    height: 450px;
-    padding-bottom: 30px;
+    height: auto;
+    padding: 0 20vw 30px 20vw;
 }
 
 .main_partenaires .s1 {
@@ -544,6 +541,10 @@ main p {
 .main_partenaires .s2 {
     padding-top: 30px;
     margin-top: 30px;
+}
+
+.main_partenaires .s5 {
+    height: auto;
 }
 
 .main_contact {
@@ -665,11 +666,8 @@ main p {
     box-sizing: border-box;
     width: 100px;
     height: 100px;
+    padding: 20px;
     /* border: brown 2px solid; */
-}
-
-.texte_contact .logo_mail {
-    padding: 28px;
 }
 
 .texte_contact a {
