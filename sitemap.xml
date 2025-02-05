@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.noussommesalma.fr/</loc> <!-- URL de la page -->
+        <lastmod>2025-02-05</lastmod> <!-- Date de la dernière modification -->
+        <changefreq>daily</changefreq> <!-- Fréquence de mise à jour -->
+        <priority>1.0</priority> <!-- Priorité de la page -->
+    </url>
+    <url>
+        <loc>https://www.noussommesalma.fr/qui_sommes_nous</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.noussommesalma.fr/le_projet</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.noussommesalma.fr/nos_partenaires</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.noussommesalma.fr/nous_sponsoriser</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>

@@ -5,3 +5,5 @@ A faire:
 Adaptation à tout écran:
 
     Affichage header pour petits écrans
+
+ajouter un fichier sitemap.xml pour le référencement
