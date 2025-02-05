@@ -366,6 +366,10 @@ main p {
     color: #FFD21A;
 }
 
+.main_qsn .s3 h2 {
+    color: #B93A00;
+}
+
 .main_qsn .s3 p {
     margin-bottom: 50px;
 }
