@@ -1,6 +1,7 @@
 {
-    "name": "Alma",
-    "description": "Le site officiel de Nous Sommes Alma.",
+    "name": "Amicale des Lamas Mécaniciens amateurs",
+    "short_name": "ALMA",
+    "description": "Site officiel de l'association Alma",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
