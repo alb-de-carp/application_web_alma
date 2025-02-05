@@ -575,13 +575,24 @@ main p {
 }
 
 .main_partenaires .s-CR_EdD {
-    background-color: #BD0120;
+    background-color: #FA9900;
 }
 
 .main_partenaires .s-CR_EdD p {
     /* color: #FFCD03; */
-    color: white;
+    /* color: white; */
+    text-align: justify;
+    box-shadow: 0 6px 25px rgb(0, 0, 0, 0.5);
+    padding: 20px;
+    background-color: white;
 }
+
+.main_partenaires .s-CR_EdD p#texte_intro_CR_EdD {
+    box-shadow: none;
+    padding: 20px;
+    background-color: transparent;
+}
+
 
 .main_partenaires .s-CR_EdD h2 {
     color: #FFCD03;
