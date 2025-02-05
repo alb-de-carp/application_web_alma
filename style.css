@@ -303,7 +303,7 @@ main p {
 .main_qsn img {
     justify-self: stretch;
     align-self: center;
-    height: auto;
+    /* height: auto; */
     max-width: 70%;
     border-radius: 8px;
     padding: 10px;
@@ -392,6 +392,10 @@ main p {
     align-self: center;
     width: 80%;
 }
+
+/* .main_qsn .s4 img {
+    max-height: 90%;
+} */
 
 .main_le_projet section {
     height: 450px;
