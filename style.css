@@ -425,18 +425,18 @@ main p {
 }
 
 .main_le_projet .s2 {
-    padding: 30px 0 0 0;
-    height: 900px;
+    padding: 30px 0 30px 0;
+    height: auto;
 }
 
 .main_le_projet .s3 {
-    padding: 30px 0 0 0;
-    height: 1500px;
+    padding: 30px 0 30px 0;
+    height: auto;
 }
 
 .main_le_projet .s4 {
-    padding: 30px 0 0 0;
-    height: 1200px;
+    padding: 30px 0 30px 0;
+    height: auto;
 }
 
 .main_le_projet .sous-section {
