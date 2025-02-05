@@ -19,9 +19,9 @@ window.onscroll = function() {
         if (logo2[0].classList.contains("logo-alma-scroll")) {
             logo2[0].classList.remove('logo-alma-scroll');
         }
-        if (menu.classList.contains("lien-menu-scroll")) {
-            menu.classList.remove('lien-menu-scroll');
-        }
+        // if (menu.classList.contains("lien-menu-scroll")) {
+        //     menu.classList.remove('lien-menu-scroll');
+        // }
      }
    }
 
