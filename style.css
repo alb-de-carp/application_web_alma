@@ -303,7 +303,6 @@ main p {
 .main_qsn img {
     justify-self: stretch;
     align-self: center;
-    /* height: auto; */
     max-width: 70%;
     border-radius: 8px;
     padding: 10px;
@@ -391,6 +390,10 @@ main p {
 .texte_qsn {
     align-self: center;
     width: 80%;
+}
+
+.main_qsn .s4 img {
+    width: 70%;
 }
 
 /* .main_qsn .s4 img {
