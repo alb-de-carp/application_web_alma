@@ -4,6 +4,12 @@
 A faire:
 Adaptation à tout écran -> Affichage header pour petits écrans
 
+Améliorer référencement:
 ajouter un fichier sitemap.xml pour le référencement
 mettre au point les meta (SEO) (regarder ce que c'est ...)
-analyser les performances, regarder comment marche google search console...
+
+Résoudre problème favicon
+
+Contenu:
+Ajouter une partie budget (mettre nos dépenses aussi ?)
+Ameliorer partie sur le 4L trophy
