@@ -8,8 +8,10 @@ Améliorer référencement:
 ajouter un fichier sitemap.xml pour le référencement
 mettre au point les meta (SEO) (regarder ce que c'est ...)
 
-Résoudre problème favicon
-
 Contenu:
 Ajouter une partie budget (mettre nos dépenses aussi ?)
 Ameliorer partie sur le 4L trophy
+
+Vitesse:
+fichier robot.txt ?
+feuilles de style separees pour les differents types d'affichages/tailles d'écran ? (optimisation du css ?)
