@@ -115,7 +115,7 @@ main p {
     font-family: Inconsolata, sans-serif;
 }
 
-.section {
+section {
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -123,35 +123,19 @@ main p {
     justify-items: center;
 }
 
-.main_accueil .s1 {
-    padding: 0px 0 10px 0;
+.s1 {
+    background-size: cover;
+    background-position: 0 -150px;
     height: 100vh;
-}
-
-.main_accueil h1 {
-    font-size: 4em;
-}
-
-.main_accueil .s1 h1 {
-    margin: 0;
-    font-size: 7em;
-    color: #FFD21A;
-}
-
-.titre_page_accueil {
-    width: 100%;
-    height: 100vh;
-    margin: 0px 0 20px 0;
+    padding: 0;
+    margin: 0 0 50px 0;
     position: relative;
 }
 
-.titre_page_accueil img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.titre_page_accueil h1 {
+.s1 h1 {
+    margin: 0;
+    font-size: 7em;
+    color: #FFD21A;
     height: inherit;
     position: absolute;
     left: 0;
@@ -160,8 +144,17 @@ main p {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 5em;
+    font-size: 7em;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.main_accueil h1 {
+    font-size: 4em;
+}
+
+.main_accueil .s1 {
+    background: url("images/photos/alma_4L/27122024-p1013389_54290728044_o.webp");
 }
 
 .main_accueil .s2 {
@@ -279,7 +272,7 @@ main p {
     box-shadow: 0 0 6px rgb(0, 0, 0, 0.25);
   }
 
-.main_qsn .section {
+.main_qsn section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
@@ -313,27 +306,6 @@ main p {
 
 .main_qsn .s1 {
     background: url(images/photos/alma_4L/27122024-p1013698_54290727884_o.webp);
-    background-size: cover;
-    background-position: 0 -200px;
-    height: 80vh;
-    padding: 0;
-    margin: 0;
-    position: relative;
-}
-
-.main_qsn .s1 h1 {
-    height: inherit;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5em;
-    background-color: rgba(0, 0, 0, 0.2);
-    margin: 0;
-    padding: 0;
 }
 
 .main_qsn .s2 {
@@ -408,27 +380,6 @@ main p {
 
 .main_le_projet .s1 {
     background: url("images/photos/4ltrophy_officiel/photo_5.webp");
-    background-size: cover;
-    background-position: 0 -350px;
-    height: 80vh;
-    padding: 0;
-    margin: 0;
-    position: relative;
-}
-
-.main_le_projet .s1 h1 {
-    height: inherit;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5em;
-    background-color: rgba(0, 0, 0, 0.2);
-    margin: 0;
-    padding: 0;
 }
 
 .main_le_projet .s2 {
@@ -466,25 +417,6 @@ main p {
 .main_le_projet .texte_solo {
     grid-template-columns: 100%;
 }
-
-/* .main_le_projet .s2 .sous-section,
-.main_le_projet .s4 .sous-section { */
-    /* Dans les sections 2 et 3 */
-    /* height: 80%;
-    display: grid;
-    grid-template-columns: 60% 40%; */
-    /* border: 2px black solid; */
-    /* align-items: center; */
-/* } */
-
-/* .main_le_projet .s3 .sous-section { */
-    /* Dans les sections 2 et 3 */
-    /* height: 100%;
-    display: grid;
-    grid-template-columns: 40% 60%; */
-    /* border: 2px black solid; */
-    /* align-items: center; */
-/* } */
 
 .main_le_projet .s2 img,
 .main_le_projet .s3 img {
@@ -539,27 +471,6 @@ main p {
 
 .main_partenaires .s1 {
     background: url(images/photos/VML\ et\ ELA/p1014255_54290731268_o_1.jpg);
-    background-size: cover;
-    background-position: 0 -130px;
-    height: 80vh;
-    padding: 0;
-    margin: 0;
-    position: relative;
-}
-
-.main_partenaires .s1 h1 {
-    height: inherit;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5em;
-    background-color: rgba(0, 0, 0, 0.2);
-    margin: 0;
-    padding: 0;
 }
 
 /* .main_partenaires .s-VML {
@@ -638,27 +549,6 @@ main p {
 
 .main_contact .s1 {
     background: url(images/photos/alma_4L/27122024-p1013362_54290488236_o.webp);
-    background-size: cover;
-    background-position: 0 -450px;
-    height: 80vh;
-    padding: 0;
-    margin: 0 0 50px 0;
-    position: relative;
-}
-
-.main_contact .s1 h1 {
-    height: inherit;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5em;
-    background-color: rgba(0, 0, 0, 0.2);
-    margin: 0;
-    padding: 0;
 }
 
 .main_contact .s2 {
