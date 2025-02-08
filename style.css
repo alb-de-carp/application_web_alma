@@ -377,6 +377,7 @@ main p {
 
 .main_qsn .s3 p {
     margin-bottom: 50px;
+    height : auto;
 }
 
 .main_qsn .s3 img {
