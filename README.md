@@ -13,6 +13,8 @@ Ajouter une partie budget (mettre nos dépenses aussi ?)
 Ameliorer partie sur le 4L trophy
 Ajouter nos motivations/raisons de participer au 4L trophy
 
+Idée: mettre les images d'en-tête en position fixed.
+
 Vitesse:
 fichier robot.txt ?
 feuilles de style separees pour les differents types d'affichages/tailles d'écran ? (optimisation du css ?)
