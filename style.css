@@ -62,7 +62,6 @@ footer p {
 header nav a:hover,
 .actuel {
     color: #FFCD03;
-    opacity: 1;
     border-bottom: 2px solid #FFCD03;
     background-color: rgb(198, 1, 32, 0.8);
 }
