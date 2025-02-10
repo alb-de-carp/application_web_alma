@@ -48,6 +48,6 @@ Tout du long j'ai crée beaucoup de classes pour pouvoir garder une grande flexi
 
 Branche publiée: main
 Branches de travail:
-    v031: ajout de titres dans les s1 de chaque page (ajout du titre de la page sur l'image d'accueil de chaque page)
-    v032: retrait de la classe "section"
-    v04: ajout d'une version pour mobile
+v031: ajout de titres dans les s1 de chaque page (ajout du titre de la page sur l'image d'accueil de chaque page)
+v032: retrait de la classe "section"
+v04: ajout d'une version pour mobile
