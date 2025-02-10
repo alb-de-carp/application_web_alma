@@ -128,8 +128,11 @@ main p {
     height: 100vh;
 }
 
-.main_accueil h1 {
-    font-size: 4em;
+.main_accueil h2 {
+    /* font-size: 4em; */
+    padding: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 
 .main_accueil .s1 h1 {
@@ -252,10 +255,6 @@ main p {
 
 .main_accueil .section_impaire {
     background: #FA9900;
-}
-
-.main_accueil .section_impaire h1 {
-    color: #FFD21A;
 }
 
 .main_accueil .section_impaire .cta {
@@ -599,11 +598,6 @@ main p {
     box-shadow: none;
     padding: 20px;
     background-color: transparent;
-}
-
-
-.main_partenaires .s-CR_EdD h2 {
-    color: #FFCD03;
 }
 
 .main_partenaires .s-CR_EdD img {
