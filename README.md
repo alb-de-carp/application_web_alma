@@ -22,6 +22,7 @@ feuilles de style separees pour les differents types d'affichages/tailles d'écr
 
 Problème:
 Lorsqu'on déroule le menu déroulant de la version mobile et qu'on élargit la page, le menu ne s'affiche plus bien.
+La largeur des marges ou padding des sections n'est pas la même sur toutes les pages. Il en résulte que la page est plus ou occupée en largeur selon les pages.
 
 
 ### Organisation du code:
