@@ -72,6 +72,10 @@ header nav ul {
 }
 
 @media (max-width: 1292px) {
+    /* header img {
+        height: 10vh;
+        width: 20vw;
+    } */
     header nav ul {
         display: none;
         position: absolute;
@@ -101,6 +105,9 @@ header nav ul {
         height: 50px;
         /* width: auto; */
     }
+    header button p {
+        color: #FFCD03;
+    }
 }
 
 @media not (max-width: 1292px) {
@@ -110,9 +117,13 @@ header nav ul {
     }
 }
 
+#img_menu_deroulant {
+    display: block;
+}
+
 header .logo2_alma {
-    height: 80px;
-    width: 200px;
+    max-height: 80px;
+    max-width: 200px;
 }
 
 .logo-alma-scroll {
@@ -214,13 +225,15 @@ main p {
 }
 
 /* Par rapport à s3 jusqu'à s6 */
-.texte_page_accueil {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 15% 0 15%;
-    grid-gap: 10px;
-    height: 70%;
-    align-content: center;
+@media not (max-width: 1292px){
+    .texte_page_accueil {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 15% 0 15%;
+        grid-gap: 10px;
+        height: 70%;
+        align-content: center;
+    }
 }
 
 .texte_page_accueil p {
