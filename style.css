@@ -71,6 +71,45 @@ header nav ul {
     list-style-type: none;
 }
 
+@media (max-width: 1292px) {
+    header nav ul {
+        display: none;
+        position: absolute;
+        top: 20vh;
+        left: 50%;
+        transform: translate(-50%, 0);
+        transition: all .3s ease;
+    }
+    header nav a {
+        color: #FFCD03;
+        border-bottom: 2px solid #FFCD03;
+        background-color: rgb(198, 1, 32, 0.8);
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    header button {
+        background-color: transparent;
+        border: none;
+        display: inline-block;
+        /* height: 80%;
+        width: 80%; */
+        /* border: 2px solid black; */
+        /* padding: 15px 32px; */
+    }
+    header button img {
+        height: 50px;
+        /* width: auto; */
+    }
+}
+
+@media not (max-width: 1292px) {
+    header button {display: none;}
+    header nav ul {
+        display: flex;
+    }
+}
+
 header .logo2_alma {
     height: 80px;
     width: 200px;

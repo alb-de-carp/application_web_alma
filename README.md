@@ -20,6 +20,8 @@ Vitesse:
 fichier robot.txt ?
 feuilles de style separees pour les differents types d'affichages/tailles d'écran ? (optimisation du css ?)
 
+Problème:
+Lorsqu'on déroule le menu déroulant de la version mobile et qu'on élargit la page, le menu ne s'affiche plus bien.
 
 
 ### Organisation du code:

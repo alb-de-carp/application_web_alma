@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="fr">
     <head>
+        <!-- feuille de style -->
         <link rel="stylesheet" href="style.css">
         
         <meta name="description" content="Découvrez Alma, notre projet innovant !">
@@ -10,6 +11,7 @@
         <meta property="og:url" content="https://noussommesalma.fr">
         <meta property="og:description" content="Découvrez Alma, notre projet innovant !">
         <meta property="og:image" content="https://noussommesalma.fr/images/logos/ALMA\-\logo1.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title> Accueil - ALMA </title>
         <meta charset="utf-8">
@@ -29,24 +31,29 @@
         <link rel="manifest" href="/files/manifest.json">
         <!-- crossorigin="use-credentials" -->
 
+        <!-- polices -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+        
+        <!-- javascript -->
         <script src="effets.js"></script>
     </head>
+
     <body>
         <header>
-        <a href="accueil.html"><img src="images/logos/ALMA - logo2.svg" alt="logo officiel ALMA" title="Retour à l'accueil" class="logo2_alma"></a>
-        <nav>
-            <ul>
-                <li><a href="" class="lien_menu actuel"> Accueil</a></li>
-                <li><a href="qui_sommes_nous.html" class="lien_menu"> Qui sommes-nous ?</a></li>
-                <li><a href="le_projet.html" class="lien_menu"> Notre projet</a></li>
-                <li><a href="nos_partenaires.html" class="lien_menu"> Nos partenaires</a></li>
-                <li><a href="nous_sponsoriser.html" class="lien_menu"> Rejoignez l'aventure!</a></li>
-            </ul>
-        </nav>
-        <a href="images\logos\ALMA - logo1.webp" target="_blank"  title="Cliquez pour admirer notre logo de plus près"><img src="images\logos\ALMA - logo1.webp" class="logo1_alma" alt="logo ALMA 4l trophy"></a>
+            <a href="accueil.html"><img src="images/logos/ALMA - logo2.svg" alt="logo officiel ALMA" title="Retour à l'accueil" class="logo2_alma"></a>
+            <nav>
+                <button id="bouton_menu_deroulant"><img src="images/symboles/agreement-02-stroke-rounded.svg"></button>
+                <ul id="ul_menu_deroulant">
+                    <li><a href="" class="lien_menu actuel"> Accueil</a></li>
+                    <li><a href="qui_sommes_nous.html" class="lien_menu"> Qui sommes-nous ?</a></li>
+                    <li><a href="le_projet.html" class="lien_menu"> Notre projet</a></li>
+                    <li><a href="nos_partenaires.html" class="lien_menu"> Nos partenaires</a></li>
+                    <li><a href="nous_sponsoriser.html" class="lien_menu"> Rejoignez l'aventure!</a></li>
+                </ul>
+            </nav>
+            <a href="images\logos\ALMA - logo1.webp" target="_blank"  title="Cliquez pour admirer notre logo de plus près"><img src="images\logos\ALMA - logo1.webp" class="logo1_alma" alt="logo ALMA 4l trophy"></a>
         </header>
 
         <main class="main_accueil">
