@@ -12,6 +12,7 @@ Contenu:
 Ajouter une partie budget (mettre nos dépenses aussi ?)
 Ameliorer partie sur le 4L trophy
 Ajouter nos motivations/raisons de participer au 4L trophy
+Mettre la video de la 4L 3D quelque part
 
 Idée: mettre les images d'en-tête en position fixed.
 Ajouter des textes en-dessous des logos des partenaires dans la page accueil et des liens vers la page "nos partenaires".

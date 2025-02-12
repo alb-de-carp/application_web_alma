@@ -48,7 +48,6 @@ header {
 header img {
     width: 80px;
     height: 80px;
-    border-radius: 8px;
 }
 
 header nav a,
@@ -88,10 +87,19 @@ header .logo2_alma {
     width: 200px;
 }
 
+header .logo1_alma {
+    height: 100px;
+    width: 100px;
+}
+
 @media (max-width: 1292px) {
     header .logo2_alma {
         height: 40px;
         width: auto;
+    }
+    header .logo1_alma {
+        height: 60px;
+        width: 60px;
     }
 }
 
@@ -325,15 +333,15 @@ main p {
 }
 
 .logo1_partenaire {
+    background-image: url('images/logos/Logo_4Ltrophy.webp');
+}
+
+.logo2_partenaire {
     background-image: url('images/logos/logo_ela.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-color: white;
     background-position: 0 20%;
-}
-
-.logo2_partenaire {
-    background-image: url('images/logos/Logo_4Ltrophy.webp');
 }
 
 .logo3_partenaire {
@@ -928,6 +936,10 @@ main p {
     font-family: Inconsolata, sans-serif;
     text-decoration: none;
     color: black;
+}
+
+#texte_bouton_contact {
+    padding-top: 30px;
 }
 /* #endregion */
 
